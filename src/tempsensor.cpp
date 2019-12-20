@@ -112,7 +112,7 @@ void sendSigK(String sigKey, float data)
 
 void setup(void) {
   M5.begin();
-  Serial.begin(9600);
+  Serial.begin(115200);
   M5.Lcd.setRotation(1);
   setup_wifi();
 }
